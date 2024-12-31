@@ -30,10 +30,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
-    'domovenoklee-8000.theiadockernext-0-'+
+    'domovenoklee-8000.theiadockernext-0-' +
     'labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/admin']
 CSRF_TRUSTED_ORIGINS = [
-    'https://domovenoklee-8000.' + 
+    'https://domovenoklee-8000.' +
     'theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
 
 REST_FRAMEWORK = {
